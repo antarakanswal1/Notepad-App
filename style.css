@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.to-do {
+  background-color: black;
+  color: whitesmoke;
+}
+
+.note {
+  color: grey;
+}
+
+/* Notes container */
+
+.note-container {
+  background-color:black;
+  padding: 20px 0px;
+  color: white;
+  height: 100vh;
+}
+
+.note-container .card-header {
+  padding: 20px;
+}
+
+.note-item {
+  padding: 10px 20px;
+  background-color: darkblue;
+  margin: 2px 0px;
+  box-shadow: 4px 4px 4px solid darkblue;
+}
+.note-item.active {
+  background-color:darkblue;
+}
+
+.note-item p {
+  padding: 0px !important;
+  margin: 0px !important;
+  font-size: 11px;
+}
+
+.save-btn{
+  margin-top: -200px;
+  margin-left: 860px;
+}
+
+.btn-outline-primary{
+  border: 1px solid darkblue;
+  color: darkblue;
+  background-color: white;
+}
+
+.btn-outline-primary:hover,.btn-primary{
+  background-color: darkblue;
+  border: 1px solid darkblue;
+}
